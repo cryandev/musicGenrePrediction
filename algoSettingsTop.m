@@ -5,10 +5,10 @@
 
 clear 
 close all
-baseDir = 'C:\Users\Chris\';
-codePath = [baseDir,'Dropbox\Documents\codeRepo\musicGenrePrediction\']; 
-localDir = [baseDir,'Documents\Misc Docs\Math\High Dimensional Datasets\Project\'];
-toolPath = [baseDir,'Dropbox\Documents\Math\High Dimensional Datasets\Project\software_toolbox\netlab\'];
+baseDir = 'C:\code\';
+codePath = [baseDir,'musicGenrePrediction\']; 
+localDir = baseDir;
+toolPath = [baseDir,'software_toolbox\netlab\'];
 dataDir = [codePath,'dataFiles\'];
 addpath(localDir,toolPath,dataDir); 
 
